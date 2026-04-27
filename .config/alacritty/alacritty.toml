@@ -1,0 +1,38 @@
+[window]
+opacity = 0.85
+blur = true
+
+[window.dimensions]
+columns = 100
+lines = 30
+
+[window.padding]
+x = 10
+y = 10
+
+[font]
+size = 11.0
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Regular"
+
+[colors.primary]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+
+[colors.normal]
+black = "#45475a"
+red = "#f38ba8"
+green = "#a6e3a1"
+yellow = "#f9e2af"
+blue = "#89b4fa"
+magenta = "#cba6f7"
+cyan = "#94e2d5"
+white = "#bac2de"
+
+[cursor]
+style = { shape = "Beam" }
+
+[scrolling]
+history = 10000
