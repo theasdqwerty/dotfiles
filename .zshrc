@@ -103,6 +103,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# === Config aliases ===
+alias dot-sync='~/dotfiles/sync-to-dotfiles.sh && cd ~/dotfiles && git add . && git commit -m "Manual sync: $(date)" && git push'
+alias dot-restore='~/dotfiles/sync-from-dotfiles.sh && source ~/.zshrc'
+
 # === HTB aliases ===
 alias nmap-fast='nmap -sC -sV -Pn -oA nmap_fast'
 alias nmap-all='nmap -sC -sV -p- -Pn -oA nmap_full'
